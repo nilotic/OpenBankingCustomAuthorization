@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7EEB4FB273B896800D31928 /* OpenBankingCustomAuthorizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB4FA273B896800D31928 /* OpenBankingCustomAuthorizationApp.swift */; };
+		B7EEB4FD273B896800D31928 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB4FC273B896800D31928 /* ContentView.swift */; };
+		B7EEB4FF273B896A00D31928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EEB4FE273B896A00D31928 /* Assets.xcassets */; };
+		B7EEB502273B896A00D31928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EEB501273B896A00D31928 /* Preview Assets.xcassets */; };
+		B7EEB539273B898900D31928 /* KoreaMobileCertificateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB50B273B898900D31928 /* KoreaMobileCertificateResponse.swift */; };
+		B7EEB53A273B898900D31928 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB50C273B898900D31928 /* PhoneNumber.swift */; };
+		B7EEB53B273B898900D31928 /* KoreaMobileCompanyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB50D273B898900D31928 /* KoreaMobileCompanyResponse.swift */; };
+		B7EEB53C273B898900D31928 /* KoreaMobileCertificateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB50E273B898900D31928 /* KoreaMobileCertificateRequest.swift */; };
+		B7EEB53D273B898900D31928 /* KoreaMobileCertificateSMSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB50F273B898900D31928 /* KoreaMobileCertificateSMSRequest.swift */; };
+		B7EEB53E273B898900D31928 /* KoreaGenderCentury.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB510273B898900D31928 /* KoreaGenderCentury.swift */; };
+		B7EEB53F273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB511273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationResponse.swift */; };
+		B7EEB540273B898900D31928 /* KoreaGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB512273B898900D31928 /* KoreaGender.swift */; };
+		B7EEB541273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB513273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeRequest.swift */; };
+		B7EEB542273B898900D31928 /* KoreaMobileCertificateSMSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB514273B898900D31928 /* KoreaMobileCertificateSMSResponse.swift */; };
+		B7EEB543273B898900D31928 /* KoreaMobileCompanyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB515273B898900D31928 /* KoreaMobileCompanyRequest.swift */; };
+		B7EEB544273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB516273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationRequest.swift */; };
+		B7EEB545273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB517273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeResponse.swift */; };
+		B7EEB546273B898900D31928 /* SMSAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB518273B898900D31928 /* SMSAuthenticationView.swift */; };
+		B7EEB547273B898900D31928 /* KoreaMobileCertificateWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB51A273B898900D31928 /* KoreaMobileCertificateWebView.swift */; };
+		B7EEB548273B898900D31928 /* KoreaMobileCertificateWebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB51B273B898900D31928 /* KoreaMobileCertificateWebViewCoordinator.swift */; };
+		B7EEB549273B898900D31928 /* SMSAuthenticationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB51C273B898900D31928 /* SMSAuthenticationData.swift */; };
+		B7EEB54A273B898900D31928 /* AuthenticationAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB51E273B898900D31928 /* AuthenticationAccountView.swift */; };
+		B7EEB54B273B898900D31928 /* AuthenticationAccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB51F273B898900D31928 /* AuthenticationAccountData.swift */; };
+		B7EEB54C273B898900D31928 /* OpenBankingAccountWebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB521273B898900D31928 /* OpenBankingAccountWebViewCoordinator.swift */; };
+		B7EEB54D273B898900D31928 /* OpenBankingAccountWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB522273B898900D31928 /* OpenBankingAccountWebView.swift */; };
+		B7EEB54E273B898900D31928 /* OpenBankingTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB524273B898900D31928 /* OpenBankingTokenResponse.swift */; };
+		B7EEB54F273B898900D31928 /* OpenBankingCallResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB525273B898900D31928 /* OpenBankingCallResponse.swift */; };
+		B7EEB550273B898900D31928 /* OpenBankingARSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB526273B898900D31928 /* OpenBankingARSResponse.swift */; };
+		B7EEB551273B898900D31928 /* OpenBankingTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB527273B898900D31928 /* OpenBankingTokenRequest.swift */; };
+		B7EEB552273B898900D31928 /* OpenBankingCallConfirmationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB528273B898900D31928 /* OpenBankingCallConfirmationResponse.swift */; };
+		B7EEB553273B898900D31928 /* OpenBankingARSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB529273B898900D31928 /* OpenBankingARSRequest.swift */; };
+		B7EEB554273B898900D31928 /* OpenBankingCallConfirmationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB52A273B898900D31928 /* OpenBankingCallConfirmationRequest.swift */; };
+		B7EEB555273B898900D31928 /* AuthorizationPolicyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB52C273B898900D31928 /* AuthorizationPolicyData.swift */; };
+		B7EEB556273B898900D31928 /* AuthorizationPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB52D273B898900D31928 /* AuthorizationPolicyView.swift */; };
+		B7EEB557273B898900D31928 /* OpenBankingWebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB52F273B898900D31928 /* OpenBankingWebViewCoordinator.swift */; };
+		B7EEB558273B898900D31928 /* OpenBankingWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB530273B898900D31928 /* OpenBankingWebView.swift */; };
+		B7EEB559273B898900D31928 /* OpenBankingInitializeAuthorizationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB532273B898900D31928 /* OpenBankingInitializeAuthorizationRequest.swift */; };
+		B7EEB55A273B898900D31928 /* OpenBankingUserAuthorizationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB533273B898900D31928 /* OpenBankingUserAuthorizationType.swift */; };
+		B7EEB55B273B898900D31928 /* OpenBankingAuthorizationPoliciesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB534273B898900D31928 /* OpenBankingAuthorizationPoliciesRequest.swift */; };
+		B7EEB55C273B898900D31928 /* OpenBankingAuthorizationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB535273B898900D31928 /* OpenBankingAuthorizationType.swift */; };
+		B7EEB55D273B898900D31928 /* OpenBankingAuthorizationScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB536273B898900D31928 /* OpenBankingAuthorizationScope.swift */; };
+		B7EEB55E273B898900D31928 /* OpenBankingAuthorizationPoliciesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB537273B898900D31928 /* OpenBankingAuthorizationPoliciesResponse.swift */; };
+		B7EEB55F273B898900D31928 /* OpenBankingInitializeAuthorizationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB538273B898900D31928 /* OpenBankingInitializeAuthorizationResponse.swift */; };
+		B7EEB576273B8AAF00D31928 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB566273B8AAF00D31928 /* NetworkManager.swift */; };
+		B7EEB577273B8AAF00D31928 /* AccounzServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB568273B8AAF00D31928 /* AccounzServer.swift */; };
+		B7EEB578273B8AAF00D31928 /* OpenBankingServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB569273B8AAF00D31928 /* OpenBankingServer.swift */; };
+		B7EEB579273B8AAF00D31928 /* ServiceURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB56A273B8AAF00D31928 /* ServiceURL.swift */; };
+		B7EEB57A273B8AAF00D31928 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB56B273B8AAF00D31928 /* HTTPHeaderField.swift */; };
+		B7EEB57B273B8AAF00D31928 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB56C273B8AAF00D31928 /* HTTPMethod.swift */; };
+		B7EEB57C273B8AAF00D31928 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB56D273B8AAF00D31928 /* Response.swift */; };
+		B7EEB57D273B8AAF00D31928 /* OpenBankingAPIServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB56E273B8AAF00D31928 /* OpenBankingAPIServer.swift */; };
+		B7EEB57E273B8AAF00D31928 /* HTTPHeaderValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB56F273B8AAF00D31928 /* HTTPHeaderValue.swift */; };
+		B7EEB57F273B8AAF00D31928 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB570273B8AAF00D31928 /* URLRequestExtension.swift */; };
+		B7EEB580273B8AAF00D31928 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB571273B8AAF00D31928 /* HTTPStatusCode.swift */; };
+		B7EEB581273B8AAF00D31928 /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB572273B8AAF00D31928 /* Host.swift */; };
+		B7EEB582273B8AAF00D31928 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB574273B8AAF00D31928 /* Logger.swift */; };
+		B7EEB583273B8AAF00D31928 /* LogType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB575273B8AAF00D31928 /* LogType.swift */; };
+		B7EEB586273B8AD700D31928 /* KoreaMobileCarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB584273B8AD700D31928 /* KoreaMobileCarrier.swift */; };
+		B7EEB587273B8AD700D31928 /* KoreaMobileVirtualNetworkOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB585273B8AD700D31928 /* KoreaMobileVirtualNetworkOperator.swift */; };
+		B7EEB589273B8AEB00D31928 /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB588273B8AEB00D31928 /* AccountType.swift */; };
+		B7EEB58B273B8B0B00D31928 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB58A273B8B0B00D31928 /* Bank.swift */; };
+		B7EEB58D273B8B1200D31928 /* Securities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB58C273B8B1200D31928 /* Securities.swift */; };
+		B7EEB592273B8B5F00D31928 /* LocaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB58F273B8B5F00D31928 /* LocaleManager.swift */; };
+		B7EEB593273B8B5F00D31928 /* Lanaguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEB591273B8B5F00D31928 /* Lanaguage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7EEB4F7273B896800D31928 /* OpenBankingCustomAuthorization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenBankingCustomAuthorization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EEB4FA273B896800D31928 /* OpenBankingCustomAuthorizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBankingCustomAuthorizationApp.swift; sourceTree = "<group>"; };
+		B7EEB4FC273B896800D31928 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7EEB4FE273B896A00D31928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7EEB501273B896A00D31928 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7EEB50B273B898900D31928 /* KoreaMobileCertificateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateResponse.swift; sourceTree = "<group>"; };
+		B7EEB50C273B898900D31928 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		B7EEB50D273B898900D31928 /* KoreaMobileCompanyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCompanyResponse.swift; sourceTree = "<group>"; };
+		B7EEB50E273B898900D31928 /* KoreaMobileCertificateRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateRequest.swift; sourceTree = "<group>"; };
+		B7EEB50F273B898900D31928 /* KoreaMobileCertificateSMSRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateSMSRequest.swift; sourceTree = "<group>"; };
+		B7EEB510273B898900D31928 /* KoreaGenderCentury.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaGenderCentury.swift; sourceTree = "<group>"; };
+		B7EEB511273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateAuthenticationCodeConfirmationResponse.swift; sourceTree = "<group>"; };
+		B7EEB512273B898900D31928 /* KoreaGender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaGender.swift; sourceTree = "<group>"; };
+		B7EEB513273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateAuthenticationCodeRequest.swift; sourceTree = "<group>"; };
+		B7EEB514273B898900D31928 /* KoreaMobileCertificateSMSResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateSMSResponse.swift; sourceTree = "<group>"; };
+		B7EEB515273B898900D31928 /* KoreaMobileCompanyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCompanyRequest.swift; sourceTree = "<group>"; };
+		B7EEB516273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateAuthenticationCodeConfirmationRequest.swift; sourceTree = "<group>"; };
+		B7EEB517273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateAuthenticationCodeResponse.swift; sourceTree = "<group>"; };
+		B7EEB518273B898900D31928 /* SMSAuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSAuthenticationView.swift; sourceTree = "<group>"; };
+		B7EEB51A273B898900D31928 /* KoreaMobileCertificateWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateWebView.swift; sourceTree = "<group>"; };
+		B7EEB51B273B898900D31928 /* KoreaMobileCertificateWebViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCertificateWebViewCoordinator.swift; sourceTree = "<group>"; };
+		B7EEB51C273B898900D31928 /* SMSAuthenticationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSAuthenticationData.swift; sourceTree = "<group>"; };
+		B7EEB51E273B898900D31928 /* AuthenticationAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationAccountView.swift; sourceTree = "<group>"; };
+		B7EEB51F273B898900D31928 /* AuthenticationAccountData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationAccountData.swift; sourceTree = "<group>"; };
+		B7EEB521273B898900D31928 /* OpenBankingAccountWebViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingAccountWebViewCoordinator.swift; sourceTree = "<group>"; };
+		B7EEB522273B898900D31928 /* OpenBankingAccountWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingAccountWebView.swift; sourceTree = "<group>"; };
+		B7EEB524273B898900D31928 /* OpenBankingTokenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingTokenResponse.swift; sourceTree = "<group>"; };
+		B7EEB525273B898900D31928 /* OpenBankingCallResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingCallResponse.swift; sourceTree = "<group>"; };
+		B7EEB526273B898900D31928 /* OpenBankingARSResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingARSResponse.swift; sourceTree = "<group>"; };
+		B7EEB527273B898900D31928 /* OpenBankingTokenRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingTokenRequest.swift; sourceTree = "<group>"; };
+		B7EEB528273B898900D31928 /* OpenBankingCallConfirmationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingCallConfirmationResponse.swift; sourceTree = "<group>"; };
+		B7EEB529273B898900D31928 /* OpenBankingARSRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingARSRequest.swift; sourceTree = "<group>"; };
+		B7EEB52A273B898900D31928 /* OpenBankingCallConfirmationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingCallConfirmationRequest.swift; sourceTree = "<group>"; };
+		B7EEB52C273B898900D31928 /* AuthorizationPolicyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationPolicyData.swift; sourceTree = "<group>"; };
+		B7EEB52D273B898900D31928 /* AuthorizationPolicyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationPolicyView.swift; sourceTree = "<group>"; };
+		B7EEB52F273B898900D31928 /* OpenBankingWebViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingWebViewCoordinator.swift; sourceTree = "<group>"; };
+		B7EEB530273B898900D31928 /* OpenBankingWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingWebView.swift; sourceTree = "<group>"; };
+		B7EEB532273B898900D31928 /* OpenBankingInitializeAuthorizationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingInitializeAuthorizationRequest.swift; sourceTree = "<group>"; };
+		B7EEB533273B898900D31928 /* OpenBankingUserAuthorizationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingUserAuthorizationType.swift; sourceTree = "<group>"; };
+		B7EEB534273B898900D31928 /* OpenBankingAuthorizationPoliciesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingAuthorizationPoliciesRequest.swift; sourceTree = "<group>"; };
+		B7EEB535273B898900D31928 /* OpenBankingAuthorizationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingAuthorizationType.swift; sourceTree = "<group>"; };
+		B7EEB536273B898900D31928 /* OpenBankingAuthorizationScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingAuthorizationScope.swift; sourceTree = "<group>"; };
+		B7EEB537273B898900D31928 /* OpenBankingAuthorizationPoliciesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingAuthorizationPoliciesResponse.swift; sourceTree = "<group>"; };
+		B7EEB538273B898900D31928 /* OpenBankingInitializeAuthorizationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingInitializeAuthorizationResponse.swift; sourceTree = "<group>"; };
+		B7EEB566273B8AAF00D31928 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B7EEB568273B8AAF00D31928 /* AccounzServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccounzServer.swift; sourceTree = "<group>"; };
+		B7EEB569273B8AAF00D31928 /* OpenBankingServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingServer.swift; sourceTree = "<group>"; };
+		B7EEB56A273B8AAF00D31928 /* ServiceURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceURL.swift; sourceTree = "<group>"; };
+		B7EEB56B273B8AAF00D31928 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
+		B7EEB56C273B8AAF00D31928 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		B7EEB56D273B8AAF00D31928 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		B7EEB56E273B8AAF00D31928 /* OpenBankingAPIServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBankingAPIServer.swift; sourceTree = "<group>"; };
+		B7EEB56F273B8AAF00D31928 /* HTTPHeaderValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderValue.swift; sourceTree = "<group>"; };
+		B7EEB570273B8AAF00D31928 /* URLRequestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestExtension.swift; sourceTree = "<group>"; };
+		B7EEB571273B8AAF00D31928 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		B7EEB572273B8AAF00D31928 /* Host.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		B7EEB574273B8AAF00D31928 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B7EEB575273B8AAF00D31928 /* LogType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogType.swift; sourceTree = "<group>"; };
+		B7EEB584273B8AD700D31928 /* KoreaMobileCarrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileCarrier.swift; sourceTree = "<group>"; };
+		B7EEB585273B8AD700D31928 /* KoreaMobileVirtualNetworkOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreaMobileVirtualNetworkOperator.swift; sourceTree = "<group>"; };
+		B7EEB588273B8AEB00D31928 /* AccountType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
+		B7EEB58A273B8B0B00D31928 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		B7EEB58C273B8B1200D31928 /* Securities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Securities.swift; sourceTree = "<group>"; };
+		B7EEB58F273B8B5F00D31928 /* LocaleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaleManager.swift; sourceTree = "<group>"; };
+		B7EEB591273B8B5F00D31928 /* Lanaguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lanaguage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7EEB4F4273B896800D31928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7EEB4EE273B896800D31928 = {
+			isa = PBXGroup;
+			children = (
+				B7EEB4F9273B896800D31928 /* OpenBankingCustomAuthorization */,
+				B7EEB4F8273B896800D31928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7EEB4F8273B896800D31928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB4F7273B896800D31928 /* OpenBankingCustomAuthorization.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7EEB4F9273B896800D31928 /* OpenBankingCustomAuthorization */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB4FA273B896800D31928 /* OpenBankingCustomAuthorizationApp.swift */,
+				B7EEB4FC273B896800D31928 /* ContentView.swift */,
+				B7EEB508273B898900D31928 /* Authorization */,
+				B7EEB564273B8A9F00D31928 /* Util */,
+				B7EEB4FE273B896A00D31928 /* Assets.xcassets */,
+				B7EEB500273B896A00D31928 /* Preview Content */,
+			);
+			path = OpenBankingCustomAuthorization;
+			sourceTree = "<group>";
+		};
+		B7EEB500273B896A00D31928 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB501273B896A00D31928 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7EEB508273B898900D31928 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB509273B898900D31928 /* SMS */,
+				B7EEB51D273B898900D31928 /* Account */,
+				B7EEB52B273B898900D31928 /* Policy */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		B7EEB509273B898900D31928 /* SMS */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB50A273B898900D31928 /* Model */,
+				B7EEB518273B898900D31928 /* SMSAuthenticationView.swift */,
+				B7EEB51C273B898900D31928 /* SMSAuthenticationData.swift */,
+				B7EEB519273B898900D31928 /* KoreaMobileCertificate */,
+			);
+			path = SMS;
+			sourceTree = "<group>";
+		};
+		B7EEB50A273B898900D31928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB584273B8AD700D31928 /* KoreaMobileCarrier.swift */,
+				B7EEB585273B8AD700D31928 /* KoreaMobileVirtualNetworkOperator.swift */,
+				B7EEB50B273B898900D31928 /* KoreaMobileCertificateResponse.swift */,
+				B7EEB50C273B898900D31928 /* PhoneNumber.swift */,
+				B7EEB50D273B898900D31928 /* KoreaMobileCompanyResponse.swift */,
+				B7EEB50E273B898900D31928 /* KoreaMobileCertificateRequest.swift */,
+				B7EEB50F273B898900D31928 /* KoreaMobileCertificateSMSRequest.swift */,
+				B7EEB510273B898900D31928 /* KoreaGenderCentury.swift */,
+				B7EEB511273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationResponse.swift */,
+				B7EEB512273B898900D31928 /* KoreaGender.swift */,
+				B7EEB513273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeRequest.swift */,
+				B7EEB514273B898900D31928 /* KoreaMobileCertificateSMSResponse.swift */,
+				B7EEB515273B898900D31928 /* KoreaMobileCompanyRequest.swift */,
+				B7EEB516273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationRequest.swift */,
+				B7EEB517273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7EEB519273B898900D31928 /* KoreaMobileCertificate */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB51A273B898900D31928 /* KoreaMobileCertificateWebView.swift */,
+				B7EEB51B273B898900D31928 /* KoreaMobileCertificateWebViewCoordinator.swift */,
+			);
+			path = KoreaMobileCertificate;
+			sourceTree = "<group>";
+		};
+		B7EEB51D273B898900D31928 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB51E273B898900D31928 /* AuthenticationAccountView.swift */,
+				B7EEB51F273B898900D31928 /* AuthenticationAccountData.swift */,
+				B7EEB520273B898900D31928 /* OpenBanking */,
+				B7EEB523273B898900D31928 /* Model */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		B7EEB520273B898900D31928 /* OpenBanking */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB522273B898900D31928 /* OpenBankingAccountWebView.swift */,
+				B7EEB521273B898900D31928 /* OpenBankingAccountWebViewCoordinator.swift */,
+			);
+			path = OpenBanking;
+			sourceTree = "<group>";
+		};
+		B7EEB523273B898900D31928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB58A273B8B0B00D31928 /* Bank.swift */,
+				B7EEB58C273B8B1200D31928 /* Securities.swift */,
+				B7EEB588273B8AEB00D31928 /* AccountType.swift */,
+				B7EEB524273B898900D31928 /* OpenBankingTokenResponse.swift */,
+				B7EEB525273B898900D31928 /* OpenBankingCallResponse.swift */,
+				B7EEB526273B898900D31928 /* OpenBankingARSResponse.swift */,
+				B7EEB527273B898900D31928 /* OpenBankingTokenRequest.swift */,
+				B7EEB528273B898900D31928 /* OpenBankingCallConfirmationResponse.swift */,
+				B7EEB529273B898900D31928 /* OpenBankingARSRequest.swift */,
+				B7EEB52A273B898900D31928 /* OpenBankingCallConfirmationRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7EEB52B273B898900D31928 /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB52D273B898900D31928 /* AuthorizationPolicyView.swift */,
+				B7EEB52C273B898900D31928 /* AuthorizationPolicyData.swift */,
+				B7EEB52E273B898900D31928 /* OpenBanking */,
+				B7EEB531273B898900D31928 /* Model */,
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		B7EEB52E273B898900D31928 /* OpenBanking */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB52F273B898900D31928 /* OpenBankingWebViewCoordinator.swift */,
+				B7EEB530273B898900D31928 /* OpenBankingWebView.swift */,
+			);
+			path = OpenBanking;
+			sourceTree = "<group>";
+		};
+		B7EEB531273B898900D31928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB532273B898900D31928 /* OpenBankingInitializeAuthorizationRequest.swift */,
+				B7EEB533273B898900D31928 /* OpenBankingUserAuthorizationType.swift */,
+				B7EEB534273B898900D31928 /* OpenBankingAuthorizationPoliciesRequest.swift */,
+				B7EEB535273B898900D31928 /* OpenBankingAuthorizationType.swift */,
+				B7EEB536273B898900D31928 /* OpenBankingAuthorizationScope.swift */,
+				B7EEB537273B898900D31928 /* OpenBankingAuthorizationPoliciesResponse.swift */,
+				B7EEB538273B898900D31928 /* OpenBankingInitializeAuthorizationResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7EEB564273B8A9F00D31928 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB58E273B8B5F00D31928 /* Locale */,
+				B7EEB573273B8AAF00D31928 /* Logger */,
+				B7EEB565273B8AAF00D31928 /* Network */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B7EEB565273B8AAF00D31928 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB566273B8AAF00D31928 /* NetworkManager.swift */,
+				B7EEB567273B8AAF00D31928 /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B7EEB567273B8AAF00D31928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB568273B8AAF00D31928 /* AccounzServer.swift */,
+				B7EEB569273B8AAF00D31928 /* OpenBankingServer.swift */,
+				B7EEB56A273B8AAF00D31928 /* ServiceURL.swift */,
+				B7EEB56B273B8AAF00D31928 /* HTTPHeaderField.swift */,
+				B7EEB56C273B8AAF00D31928 /* HTTPMethod.swift */,
+				B7EEB56D273B8AAF00D31928 /* Response.swift */,
+				B7EEB56E273B8AAF00D31928 /* OpenBankingAPIServer.swift */,
+				B7EEB56F273B8AAF00D31928 /* HTTPHeaderValue.swift */,
+				B7EEB570273B8AAF00D31928 /* URLRequestExtension.swift */,
+				B7EEB571273B8AAF00D31928 /* HTTPStatusCode.swift */,
+				B7EEB572273B8AAF00D31928 /* Host.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7EEB573273B8AAF00D31928 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB574273B8AAF00D31928 /* Logger.swift */,
+				B7EEB575273B8AAF00D31928 /* LogType.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		B7EEB58E273B8B5F00D31928 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB58F273B8B5F00D31928 /* LocaleManager.swift */,
+				B7EEB590273B8B5F00D31928 /* Model */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		B7EEB590273B8B5F00D31928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEB591273B8B5F00D31928 /* Lanaguage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7EEB4F6273B896800D31928 /* OpenBankingCustomAuthorization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EEB505273B896A00D31928 /* Build configuration list for PBXNativeTarget "OpenBankingCustomAuthorization" */;
+			buildPhases = (
+				B7EEB4F3273B896800D31928 /* Sources */,
+				B7EEB4F4273B896800D31928 /* Frameworks */,
+				B7EEB4F5273B896800D31928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenBankingCustomAuthorization;
+			productName = OpenBankingCustomAuthorization;
+			productReference = B7EEB4F7273B896800D31928 /* OpenBankingCustomAuthorization.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7EEB4EF273B896800D31928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B7EEB4F6273B896800D31928 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = B7EEB4F2273B896800D31928 /* Build configuration list for PBXProject "OpenBankingCustomAuthorization" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7EEB4EE273B896800D31928;
+			productRefGroup = B7EEB4F8273B896800D31928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7EEB4F6273B896800D31928 /* OpenBankingCustomAuthorization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7EEB4F5273B896800D31928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EEB502273B896A00D31928 /* Preview Assets.xcassets in Resources */,
+				B7EEB4FF273B896A00D31928 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7EEB4F3273B896800D31928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EEB54D273B898900D31928 /* OpenBankingAccountWebView.swift in Sources */,
+				B7EEB549273B898900D31928 /* SMSAuthenticationData.swift in Sources */,
+				B7EEB543273B898900D31928 /* KoreaMobileCompanyRequest.swift in Sources */,
+				B7EEB55A273B898900D31928 /* OpenBankingUserAuthorizationType.swift in Sources */,
+				B7EEB55C273B898900D31928 /* OpenBankingAuthorizationType.swift in Sources */,
+				B7EEB57B273B8AAF00D31928 /* HTTPMethod.swift in Sources */,
+				B7EEB580273B8AAF00D31928 /* HTTPStatusCode.swift in Sources */,
+				B7EEB593273B8B5F00D31928 /* Lanaguage.swift in Sources */,
+				B7EEB58D273B8B1200D31928 /* Securities.swift in Sources */,
+				B7EEB57A273B8AAF00D31928 /* HTTPHeaderField.swift in Sources */,
+				B7EEB55E273B898900D31928 /* OpenBankingAuthorizationPoliciesResponse.swift in Sources */,
+				B7EEB4FD273B896800D31928 /* ContentView.swift in Sources */,
+				B7EEB555273B898900D31928 /* AuthorizationPolicyData.swift in Sources */,
+				B7EEB552273B898900D31928 /* OpenBankingCallConfirmationResponse.swift in Sources */,
+				B7EEB578273B8AAF00D31928 /* OpenBankingServer.swift in Sources */,
+				B7EEB586273B8AD700D31928 /* KoreaMobileCarrier.swift in Sources */,
+				B7EEB53B273B898900D31928 /* KoreaMobileCompanyResponse.swift in Sources */,
+				B7EEB55F273B898900D31928 /* OpenBankingInitializeAuthorizationResponse.swift in Sources */,
+				B7EEB577273B8AAF00D31928 /* AccounzServer.swift in Sources */,
+				B7EEB539273B898900D31928 /* KoreaMobileCertificateResponse.swift in Sources */,
+				B7EEB547273B898900D31928 /* KoreaMobileCertificateWebView.swift in Sources */,
+				B7EEB546273B898900D31928 /* SMSAuthenticationView.swift in Sources */,
+				B7EEB558273B898900D31928 /* OpenBankingWebView.swift in Sources */,
+				B7EEB545273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeResponse.swift in Sources */,
+				B7EEB57E273B8AAF00D31928 /* HTTPHeaderValue.swift in Sources */,
+				B7EEB589273B8AEB00D31928 /* AccountType.swift in Sources */,
+				B7EEB548273B898900D31928 /* KoreaMobileCertificateWebViewCoordinator.swift in Sources */,
+				B7EEB4FB273B896800D31928 /* OpenBankingCustomAuthorizationApp.swift in Sources */,
+				B7EEB54A273B898900D31928 /* AuthenticationAccountView.swift in Sources */,
+				B7EEB53E273B898900D31928 /* KoreaGenderCentury.swift in Sources */,
+				B7EEB54B273B898900D31928 /* AuthenticationAccountData.swift in Sources */,
+				B7EEB579273B8AAF00D31928 /* ServiceURL.swift in Sources */,
+				B7EEB557273B898900D31928 /* OpenBankingWebViewCoordinator.swift in Sources */,
+				B7EEB55B273B898900D31928 /* OpenBankingAuthorizationPoliciesRequest.swift in Sources */,
+				B7EEB583273B8AAF00D31928 /* LogType.swift in Sources */,
+				B7EEB53C273B898900D31928 /* KoreaMobileCertificateRequest.swift in Sources */,
+				B7EEB582273B8AAF00D31928 /* Logger.swift in Sources */,
+				B7EEB576273B8AAF00D31928 /* NetworkManager.swift in Sources */,
+				B7EEB553273B898900D31928 /* OpenBankingARSRequest.swift in Sources */,
+				B7EEB53A273B898900D31928 /* PhoneNumber.swift in Sources */,
+				B7EEB551273B898900D31928 /* OpenBankingTokenRequest.swift in Sources */,
+				B7EEB556273B898900D31928 /* AuthorizationPolicyView.swift in Sources */,
+				B7EEB54C273B898900D31928 /* OpenBankingAccountWebViewCoordinator.swift in Sources */,
+				B7EEB53D273B898900D31928 /* KoreaMobileCertificateSMSRequest.swift in Sources */,
+				B7EEB58B273B8B0B00D31928 /* Bank.swift in Sources */,
+				B7EEB559273B898900D31928 /* OpenBankingInitializeAuthorizationRequest.swift in Sources */,
+				B7EEB587273B8AD700D31928 /* KoreaMobileVirtualNetworkOperator.swift in Sources */,
+				B7EEB57D273B8AAF00D31928 /* OpenBankingAPIServer.swift in Sources */,
+				B7EEB57F273B8AAF00D31928 /* URLRequestExtension.swift in Sources */,
+				B7EEB53F273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationResponse.swift in Sources */,
+				B7EEB581273B8AAF00D31928 /* Host.swift in Sources */,
+				B7EEB544273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeConfirmationRequest.swift in Sources */,
+				B7EEB554273B898900D31928 /* OpenBankingCallConfirmationRequest.swift in Sources */,
+				B7EEB57C273B8AAF00D31928 /* Response.swift in Sources */,
+				B7EEB542273B898900D31928 /* KoreaMobileCertificateSMSResponse.swift in Sources */,
+				B7EEB55D273B898900D31928 /* OpenBankingAuthorizationScope.swift in Sources */,
+				B7EEB54E273B898900D31928 /* OpenBankingTokenResponse.swift in Sources */,
+				B7EEB540273B898900D31928 /* KoreaGender.swift in Sources */,
+				B7EEB592273B8B5F00D31928 /* LocaleManager.swift in Sources */,
+				B7EEB541273B898900D31928 /* KoreaMobileCertificateAuthenticationCodeRequest.swift in Sources */,
+				B7EEB550273B898900D31928 /* OpenBankingARSResponse.swift in Sources */,
+				B7EEB54F273B898900D31928 /* OpenBankingCallResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7EEB503273B896A00D31928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7EEB504273B896A00D31928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7EEB506273B896A00D31928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenBankingCustomAuthorization/Preview Content\"";
+				DEVELOPMENT_TEAM = C75HZNC664;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nilotic.OpenBankingCustomAuthorization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7EEB507273B896A00D31928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenBankingCustomAuthorization/Preview Content\"";
+				DEVELOPMENT_TEAM = C75HZNC664;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nilotic.OpenBankingCustomAuthorization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7EEB4F2273B896800D31928 /* Build configuration list for PBXProject "OpenBankingCustomAuthorization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EEB503273B896A00D31928 /* Debug */,
+				B7EEB504273B896A00D31928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EEB505273B896A00D31928 /* Build configuration list for PBXNativeTarget "OpenBankingCustomAuthorization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EEB506273B896A00D31928 /* Debug */,
+				B7EEB507273B896A00D31928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7EEB4EF273B896800D31928 /* Project object */;
+}
